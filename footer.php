@@ -70,29 +70,29 @@
       </div>
       <!-- Grid column -->
       <div class="col-md-3">
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Nos RS :</h5>
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Réseaux Sociaux :</h5>
         <ul class="list-unstyled">
-    <li class=>
-      <a class="btn-fb mx-1">
+    <li>
+      <a class="btn-fb mx-1" href="https://www.facebook.com/ced.arnaudet">
         <i class="fab fa-facebook-square"></i>
       </a>
     </li>
-    <li class="">
+    <li class="btn-tw mx-2" href="https://twitter.com/?lang=fr">
       <a class=" btn-tw mx-1">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
-    <li class="">
+    <li class="btn-gplus mx-1" href="https://plus.google.com/discover">
       <a class=" btn-gplus mx-1">
         <i class="fab fa-google-plus-g"></i>
       </a>
     </li>
-    <li class="">
+    <li class="btn-li mx-1" href="https://www.linkedin.com/feed/">
       <a class=" btn-li mx-1">
         <i class="fab fa-linkedin"></i>
       </a>
     </li>
-    <li class="">
+    <li class="" href="">
       <a class=" btn-dribbble mx-1">
         <i class="fab fa-dribbble-square"></i>
       </a>
