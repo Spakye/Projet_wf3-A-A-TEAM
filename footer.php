@@ -60,10 +60,10 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Connexion</a>
+            <a href="connection.php">Connexion</a>
           </li>
           <li>
-            <a href="#!">Déconnexion</a>
+            <a href="disconnect.php">Déconnexion</a>
           </li>
         </ul>
 
