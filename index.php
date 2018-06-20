@@ -48,10 +48,10 @@
     </p>
   </div>
   <div class="col-md-4">
-	<img src="//placehold.it/75x75">
-    <img src="//placehold.it/75x75">
-    <img src="//placehold.it/75x75">
-    <img src="//placehold.it/75x75">
+	<img src="//placehold.it/80x80">
+    <img src="//placehold.it/80x80">
+    <img src="//placehold.it/80x80">
+    <img src="//placehold.it/80x80">
   </div>
   </div>
   </div>
