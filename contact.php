@@ -33,7 +33,7 @@ include('header.php')
     <div id="map"></div>
     <script>
       function initMap() {
-        var uluru = {lat: 41.9023600, lng: 12.4533200};
+        var uluru = {lat: 31.630000, lng: -8.008889};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 4,
           center: uluru
