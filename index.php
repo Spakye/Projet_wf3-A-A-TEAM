@@ -48,6 +48,7 @@
     </p>
   </div>
   <div class="col-md-4">
+    <h4>Derniers articles consultés</h4>
 	<img src="//placehold.it/80x80">
     <img src="//placehold.it/80x80">
     <img src="//placehold.it/80x80">
