@@ -28,19 +28,16 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Chaussure</a>
+            <a href="chaussure.php">Chaussure</a>
           </li>
           <li>
-            <a href="#!">Pantalon</a>
+            <a href="pantalon.php">Pantalon</a>
           </li>
           <li>
-            <a href="#!">T-Shirt</a>
-          </li>
-          <li>
-            <a href="#!">Robe</a>
+            <a href="teeshirt.php">T-Shirt</a>
           </li>
            <li>
-            <a href="#!">Manteau</a>
+            <a href="manteau.php">Manteau</a>
           </li>
         </ul>
 
