@@ -1,11 +1,4 @@
-<?php session_start(); ?>
-
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
+<?php include('header.php'); ?>
 
 <form method="POST" action="connection.php">
 	<input type="text" name="username" placeholder="Username or Email">
@@ -52,8 +45,7 @@ if (!empty($_POST)) {
 
 	
 }
-	
-?>
 
-</body>
-</html>
+
+include('footer.php');	
+?>

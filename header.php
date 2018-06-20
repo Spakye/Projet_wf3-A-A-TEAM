@@ -13,14 +13,15 @@ session_start();
 </head>
 <body>
 	<header>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-2">
-					<img src="https://placehold.it/150x50" alt="logo" class="logo">
+					<a href="index.php"><img src="https://placehold.it/150x50" alt="logo" class="logo"></a>
 				</div>
-				<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<div class="col-md-8" id="navbarNav">
+				<nav class="col-md-8 navbar navbar-expand-lg d-flex justify-content-around">
+				<div id="navbarNav">
 					<ul class="navbar-nav">
+						<li class="nav-item"><a class="nav-link" href="index.php">HOME</a></li>
 						<li class="nav-item active">
 							<a class="nav-link" href="#">CHAUSSURE</a>
 						</li>
@@ -40,8 +41,14 @@ session_start();
 				</div>
 				</nav>
 				<div class="col-md-2">
-					<a href="connection.php"><i class="fas fa-user fa-2x"></i></a>
-					<a href="deconnection.php"><i class="fas fa-sign-out-alt fa-2x"></i></a>
+					<?php if ($_SESSION) {
+						echo '<a href="#">'.$_SESSION['username'].'</a>';
+						echo '<a href="disconnect.php"><i class="fas fa-sign-out-alt fa-2x"></i></a>';
+					}else{
+						echo '<a href="connection.php"><i class="fas fa-user fa-2x"></i></a>';
+					}
+					?>
+					
 				</div>
 			</div>
 		</div>

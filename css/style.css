@@ -1,0 +1,25 @@
+header{
+	background-color: #3949AB;
+	color: white;
+
+}
+
+header a {
+	color: white
+}
+
+.form{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+.titre{
+    font-family: 'Righteous', cursive;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#map {
+    height: 400px;
+    width: 100%;
+   }
+
