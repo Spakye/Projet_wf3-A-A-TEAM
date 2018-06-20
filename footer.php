@@ -1,14 +1,14 @@
 <!-- Footer -->
-<footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
+<footer class="page-footer font-small stylish-color-dark mt-1 container-fluid">
 
   <!-- Footer Links -->
-  <div class="container text-center text-md-left">
+  <div class="text-center text-md-left">
 
     <!-- Grid row -->
-    <div class="row">
+    <div class="row d-flex justify-content-between">
 
       <!-- Grid column -->
-      <div class="col-md-4 mx-auto">
+      <div class="col-md-3 mx-auto">
 
         <!-- Content -->
         <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Notre Boutique Ateam</h5>
@@ -69,6 +69,36 @@
 
       </div>
       <!-- Grid column -->
+      <div class="col-md-3">
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Nos RS :</h5>
+        <ul class="list-unstyled">
+    <li class=>
+      <a class="btn-fb mx-1">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+    </li>
+    <li class="">
+      <a class=" btn-tw mx-1">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li class="">
+      <a class=" btn-gplus mx-1">
+        <i class="fab fa-google-plus-g"></i>
+      </a>
+    </li>
+    <li class="">
+      <a class=" btn-li mx-1">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="">
+      <a class=" btn-dribbble mx-1">
+        <i class="fab fa-dribbble-square"></i>
+      </a>
+    </li>
+  </ul>
+      </div>
 
     </div>
     <!-- Grid row -->
@@ -76,53 +106,10 @@
   </div>
   <!-- Footer Links -->
 
-  <hr>
-
-  <!-- Call to action -->
-  <ul class="list-unstyled list-inline text-center py-2">
-    <li class="list-inline-item">
-      <a href="#!" class="btn btn-danger btn-rounded">Posez vos questions</a>
-    </li>
-  </ul>
-  <!-- Call to action -->
-
-  <hr>
 
   <!-- Social buttons -->
-  <ul class="list-unstyled list-inline text-center">
-    <li class="list-inline-item">
-      <a class="btn-floating btn-fb mx-1">
-        <i class="fa fa-facebook"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-tw mx-1">
-        <i class="fa fa-twitter"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-gplus mx-1">
-        <i class="fa fa-google-plus"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-li mx-1">
-        <i class="fa fa-linkedin"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-dribbble mx-1">
-        <i class="fa fa-dribbble"> </i>
-      </a>
-    </li>
-  </ul>
   <!-- Social buttons -->
 
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2018 Copyright:
-    <a href="https://mdbootstrap.com/bootstrap-tutorial/"> The Ateam</a>
-  </div>
-  <!-- Copyright -->
 
 </footer>
 
