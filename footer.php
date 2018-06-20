@@ -78,23 +78,23 @@
         <i class="fab fa-facebook-square"></i>
       </a>
     </li>
-    <li class="btn-tw mx-2">
-      <a class=" btn-tw mx-1" href="https://twitter.com/?lang=fr">
+    <li class="btn-tw mx-1">
+      <a class="btn-tw mx-1" href="https://twitter.com/?lang=fr">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li class="btn-gplus mx-1">
-      <a class=" btn-gplus mx-1" href="https://plus.google.com/discover">
+      <a class="btn-gplus mx-1" href="https://plus.google.com/discover">
         <i class="fab fa-google-plus-g"></i>
       </a>
     </li>
     <li class="btn-li mx-1">
-      <a class=" btn-li mx-1"  href="https://www.linkedin.com/feed/">
+      <a class="btn-li mx-1"  href="https://www.linkedin.com/feed/">
         <i class="fab fa-linkedin"></i>
       </a>
     </li>
     <li class="" href="">
-      <a class=" btn-dribbble mx-1">
+      <a class="btn-dribbble mx-1">
         <i class="fab fa-dribbble-square"></i>
       </a>
     </li>
