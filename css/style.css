@@ -1,3 +1,13 @@
+header{
+	background-color: #3949AB;
+	color: white;
+
+}
+
+header a {
+	color: white
+}
+
 .form{
     margin-left: 100px;
     margin-right: 100px;
