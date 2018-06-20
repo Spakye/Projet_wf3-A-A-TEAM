@@ -19,6 +19,7 @@
     echo '<h3>'.$tshirt['title'].'</h3>';
     echo '<p>'.$tshirt['Product_Details'].'</p>';
     echo '<p><strong>'.$tshirt['price'].'€</strong></p>';
+    echo '<a class="btn btn-primary" href="article.php?id='.$tshirt['id'].'">Voir l\'article</a>';
     echo '</div>';
     echo '</div>';
   }

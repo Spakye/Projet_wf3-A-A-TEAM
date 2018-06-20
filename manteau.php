@@ -19,6 +19,7 @@
     echo '<h3>'.$veste['title'].'</h3>';
     echo '<p>'.$veste['Product_Details'].'</p>';
     echo '<p><strong>'.$veste['price'].'€</strong></p>';
+    echo '<a class="btn btn-primary" href="article.php?id='.$veste['id'].'">Voir l\'article</a>';
     echo '</div>';
     echo '</div>';
   }

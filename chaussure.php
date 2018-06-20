@@ -19,6 +19,7 @@
     echo '<h3>'.$chaussure['title'].'</h3>';
     echo '<p>'.$chaussure['Product_Details'].'</p>';
     echo '<p><strong>'.$chaussure['price'].'€</strong></p>';
+    echo '<a class="btn btn-primary" href="article.php?id='.$chaussure['id'].'">Voir l\'article</a>';
     echo '</div>';
     echo '</div>';
   }
