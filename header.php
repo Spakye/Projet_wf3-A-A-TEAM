@@ -40,7 +40,7 @@ session_start();
 					</ul>
 				</div>
 				</nav>
-				<div class="col-md-2">
+				<div class="col-md-2 d-flex justify-content-around">
 					<?php if ($_SESSION) {
 						echo '<a href="#">'.$_SESSION['username'].'</a>';
 						echo '<a href="disconnect.php"><i class="fas fa-sign-out-alt fa-2x"></i></a>';
