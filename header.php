@@ -26,7 +26,7 @@ session_start();
 							<a class="nav-link" href="chaussure.php">CHAUSSURE</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#pantalon.php">PANTALON</a>
+							<a class="nav-link" href="pantalon.php">PANTALON</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="t-shirt.php">T-SHIRT</a>
