@@ -2,7 +2,7 @@
 include('header.php')
 ?>
 <div class="contact">
-    <h1 class="titre">Formulaire de contact</h1>
+    <h1 class="titre"><u>Formulaire de contact : </u></h1>
     <form class="form">
         <div class="form-group">
           <label for="exampleInputEmail1" class="">Nom</label>
