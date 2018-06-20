@@ -40,8 +40,14 @@ session_start();
 				</div>
 				</nav>
 				<div class="col-md-2">
-					<a href="connection.php"><i class="fas fa-user fa-2x"></i></a>
-					<a href="deconnection.php"><i class="fas fa-sign-out-alt fa-2x"></i></a>
+					<?php if ($_SESSION) {
+						echo '<a href="#">'.$_SESSION['username'].'</a>';
+						echo '<a href="disconnect.php"><i class="fas fa-sign-out-alt fa-2x"></i></a>';
+					}else{
+						echo '<a href="connection.php"><i class="fas fa-user fa-2x"></i></a>';
+					}
+					?>
+					
 				</div>
 			</div>
 		</div>
