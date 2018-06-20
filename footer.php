@@ -28,19 +28,16 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Chaussure</a>
+            <a href="chaussure.php">Chaussure</a>
           </li>
           <li>
-            <a href="#!">Pantalon</a>
+            <a href="pantalon.php">Pantalon</a>
           </li>
           <li>
-            <a href="#!">T-Shirt</a>
-          </li>
-          <li>
-            <a href="#!">Robe</a>
+            <a href="t-shirt.php">T-Shirt</a>
           </li>
            <li>
-            <a href="#!">Manteau</a>
+            <a href="manteau.php">Manteau</a>
           </li>
         </ul>
 
@@ -60,12 +57,15 @@
         <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Admin</h5>
 
         <ul class="list-unstyled">
-          <li>
-            <a href="connection.php">Connexion</a>
-          </li>
-          <li>
-            <a href="disconnect.php">Déconnexion</a>
-          </li>
+          <?php 
+          if ($_SESSION) {
+            echo '<li><a href="back.php">Back</a></li>';
+            echo '<li><a href="disconnect.php">Déconnexion</a></li>';
+          }else{
+            echo '<li><a href="connection.php">Connexion</a></li>';
+          }
+
+          ?>
         </ul>
 
       </div>
