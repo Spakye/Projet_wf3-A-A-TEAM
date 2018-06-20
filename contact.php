@@ -2,16 +2,16 @@
 include('header.php')
 ?>
 <div class="contact">
-    <h1 class="titre"><u>Formulaire de contact : </u></h1>
+    <h1 class="titre"><u>Formulaire de contact : </u>(نموذج الاتصال)</h1>
     <form class="form">
         <div class="form-group">
-          <label for="exampleInputEmail1" class="">Nom</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez votre nom">
+          <label for="exampleInputText" class="">Nom</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez votre nom">
           <small id="emailHelp" class="form-text text-muted"></small>
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1">Prénom</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Entrez votre prénom">
+          <label for="exampleInputText">Prénom</label>
+          <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Entrez votre prénom">
         </div>        
         <div class="form-group">
             <label for="exampleInputEmail1">Adresse Email</label>
@@ -30,7 +30,7 @@ include('header.php')
       </form>
 </div>
       <hr>
-      <h3 id="ns">Nous situer : </h3> 
+      <h3 id="ns">Nous situer :  حدد لنا</h3> 
       <br>     
     <div id="map"></div>
     <script>
