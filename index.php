@@ -1,10 +1,6 @@
 
 	<?php include('header.php'); ?>
 <br>
-<<<<<<< HEAD
-=======
-
->>>>>>> 5f24a3526169afb338c01412ec458e6dbb7a4dec
 <div class="container">
 <div class="row">
 <div class="col-md-12">
@@ -60,10 +56,6 @@
   </div>
   </div>
 </div>
-<<<<<<< HEAD
-=======
-
->>>>>>> 5f24a3526169afb338c01412ec458e6dbb7a4dec
 
 	<?php include('footer.php'); ?>
 

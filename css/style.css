@@ -1,8 +1,5 @@
-body{
-    font-family: 'Capriola', sans-serif;
-}
 header{
-	background-color: #3949AB;
+	background-color: white;
 	color: white;
 
 }
@@ -16,7 +13,7 @@ header a {
     margin-top: 100px;
 }
 .titre{
-    font-family: 'Brawler', serif;
+    font-family: 'Righteous', cursive;
     margin-top: 50px;
     margin-left: 100px;
 }
@@ -41,8 +38,5 @@ footer .col-md-3{
 
 footer a {
 	color: white;
-}
-h1,h2,h3,h4,h5,h6{
-    font-family: 'Brawler', serif;
 }
 
