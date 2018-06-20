@@ -1,6 +1,7 @@
 <?php
 include('header.php')
 ?>
+<div class="contact">
     <h1 class="titre">Formulaire de contact</h1>
     <form class="form">
         <div class="form-group">
@@ -27,6 +28,7 @@ include('header.php')
           </div>        
         <button type="submit" class="btn btn-primary">Envoyer</button>
       </form>
+</div>
       <hr>
       <h3 id="ns">Nous situer : </h3> 
       <br>     
