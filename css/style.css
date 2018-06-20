@@ -20,6 +20,10 @@ header a {
 }
 #map {
     height: 400px;
-    width: 100%;
+    width: 60%;
+    margin-left: 400px;
    }
+#ns{
+    margin-left: 400px;
+}
 

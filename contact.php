@@ -28,7 +28,7 @@ include('header.php')
         <button type="submit" class="btn btn-primary">Envoyer</button>
       </form>
       <hr>
-      <h3>Nous situer</h3> 
+      <h3 id="ns">Nous situer : </h3> 
       <br>     
     <div id="map"></div>
     <script>
