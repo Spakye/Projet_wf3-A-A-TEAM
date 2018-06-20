@@ -1,7 +1,7 @@
 
 	<?php include('header.php'); ?>
 <br>
-<div class="container">
+<div class="container pt-5 pb-5">
 <div class="row">
 <div class="col-md-12">
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -31,12 +31,12 @@
   </a>
 </div>
   </div>
-<div class="container">
-  <div class="row">
+
+  <div class="row pt-5 pb-5">
     <div class="col-md-12"></div>
   </div>
-</div>
-<div class="row mt-5">
+
+<div class="row pt-5 pb-5 mt-5 mb-5">
   <div class="col-md-8">
   <h2><u>Présentation de notre boutique : </u></h2>
     <p>
