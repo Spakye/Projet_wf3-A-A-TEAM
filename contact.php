@@ -1,6 +1,6 @@
-
-
-<body>
+<?php
+include('header.php')
+?>
     <h1 class="titre">Formulaire de contact</h1>
     <form class="form">
         <div class="form-group">
@@ -45,3 +45,6 @@
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFWfsdfrlRbYZRV3p4ekUlzDN2K3mJSKQ&callback=initMap">
     </script>
+ <?php
+include('footer.php')
+?>
