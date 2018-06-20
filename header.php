@@ -21,7 +21,6 @@ session_start();
 					<a href="index.php"><img src="images/logo.jpg" alt="logo" class="logo"></a>
 				</div>
 				<nav class="col-md-8 navbar navbar-expand-lg d-flex justify-content-around">
-				
 					<ul class="navbar-nav">
 						<li class="nav-item"><a class="nav-link" href="index.php">HOME</a></li>
 						<li class="nav-item active">
@@ -40,9 +39,7 @@ session_start();
 							<a class="nav-link" href="contact.php">CONTACT</a>
 						</li>
 
-					</ul>
-
-				
+					</ul>				
 				</nav>
 				<div class="col-md-2 navbar navbar-expand-lg">
 					<ul>
