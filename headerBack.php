@@ -14,4 +14,5 @@ session_start();
 </head>
 <header>
 	<h1>Bienvenue <?= $_SESSION['username'] ?></h1>
+	yolo!
 </header>
