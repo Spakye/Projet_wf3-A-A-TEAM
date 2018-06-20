@@ -34,7 +34,7 @@
             <a href="pantalon.php">Pantalon</a>
           </li>
           <li>
-            <a href="teeshirt.php">T-Shirt</a>
+            <a href="t-shirt.php">T-Shirt</a>
           </li>
            <li>
             <a href="manteau.php">Manteau</a>
