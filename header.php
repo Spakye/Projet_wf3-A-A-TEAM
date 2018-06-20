@@ -34,9 +34,6 @@ session_start();
 							<a class="nav-link" href="t-shirt.php">T-SHIRT</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="robe.php">ROBE</a>
-						</li>
-						<li class="nav-item">
 							<a class="nav-link" href="manteau.php">MANTEAU</a>
 						</li>
 						<li class="nav-item active">
@@ -46,13 +43,7 @@ session_start();
 				</div>
 				</nav>
 				<div class="col-md-2 d-flex justify-content-around">
-					<?php if ($_SESSION) {
-						echo '<a href="#">'.$_SESSION['username'].'</a>';
-						echo '<a href="disconnect.php"><i class="fas fa-sign-out-alt fa-2x"></i></a>';
-					}else{
-						echo '<a href="connection.php"><i class="fas fa-user fa-2x"></i></a>';
-					}
-					?>
+					
 					
 				</div>
 			</div>

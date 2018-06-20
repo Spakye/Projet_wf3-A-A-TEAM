@@ -1,7 +1,7 @@
 
   <?php include('header.php'); ?>
 
-<div class="container">
+<div class="container text-center">
   <div class="row text-center">
     <h1>T-SHIRT</h1>
   </div>

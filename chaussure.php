@@ -1,9 +1,9 @@
 
 	<?php include('header.php'); ?>
 
-<div class="container">
-  <div class="row text-center">
-    <h1>CHAUSSURES</h1>
+<div class="container text-center">
+  <div class="row">
+    <h1 class="text-center">CHAUSSURES</h1>
   </div>
   <?php
   require_once('inc/bdd.php');
