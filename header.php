@@ -32,9 +32,6 @@ session_start();
 							<a class="nav-link" href="t-shirt.php">T-SHIRT</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="robe.php">ROBE</a>
-						</li>
-						<li class="nav-item">
 							<a class="nav-link" href="manteau.php">MANTEAU</a>
 						</li>
 						<li class="nav-item active">
