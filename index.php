@@ -1,6 +1,9 @@
 
 	<?php include('header.php'); ?>
 <br>
+<<<<<<< HEAD
+
+=======
 <div class="container">
 <div class="row">
 <div class="col-md-12">
@@ -48,6 +51,7 @@
     </p>
   </div>
   <div class="col-md-4">
+    <h4>Derniers articles consultés</h4>
 	<img src="//placehold.it/80x80">
     <img src="//placehold.it/80x80">
     <img src="//placehold.it/80x80">
@@ -56,6 +60,7 @@
   </div>
   </div>
 </div>
+>>>>>>> 722f834c476526272ab6844297298f29598d69a7
 
 	<?php include('footer.php'); ?>
 
