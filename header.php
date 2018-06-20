@@ -16,26 +16,29 @@ session_start();
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-2">
-					<a href="index.php"><img src="https://placehold.it/150x50" alt="logo" class="logo"></a>
+					<a href="index.php"><img src="images/logo.jpg" alt="logo" class="logo"></a>
 				</div>
 				<nav class="col-md-8 navbar navbar-expand-lg d-flex justify-content-around">
 				<div id="navbarNav">
 					<ul class="navbar-nav">
 						<li class="nav-item"><a class="nav-link" href="index.php">HOME</a></li>
 						<li class="nav-item active">
-							<a class="nav-link" href="#">CHAUSSURE</a>
+							<a class="nav-link" href="chaussure.php">CHAUSSURE</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">PANTALON</a>
+							<a class="nav-link" href="#pantalon.php">PANTALON</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">T-SHIRT</a>
+							<a class="nav-link" href="t-shirt.php">T-SHIRT</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">ROBE</a>
+							<a class="nav-link" href="robe.php">ROBE</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">MANTEAU</a>
+							<a class="nav-link" href="manteau.php">MANTEAU</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="contact.php">CONTACT</a>
 						</li>
 					</ul>
 				</div>
