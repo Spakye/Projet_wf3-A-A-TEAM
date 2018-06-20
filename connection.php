@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,9 +7,9 @@
 </head>
 <body>
 
-<form>
+<form method="POST" action="connection.php">
 	<input type="text" name="username" placeholder="Username or Email">
-	<input type="text" name="password" placeholder="Password">
+	<input type="password" name="password" placeholder="Password">
 	<button type="submit">Log in</button>
 </form>
 
@@ -15,11 +17,13 @@
 
 require_once('inc/bdd.php');
 
-$select=$bdd->prepare('SELECT * FROM users WHERE username = :username OR email=:username');
-$select->bindValue(':username', htmlspecialchars($_POST['username']));
-$select->bindValue(':password', htmlspecialchars($_POST['password']));
 
-if (isset($_POST)) {
+if (!empty($_POST)) {
+
+	$select=$bdd->prepare('SELECT * FROM users WHERE username = :username OR email=:username');
+	$select->bindValue(':username', htmlspecialchars($_POST['username']));
+	$select->bindValue(':password', htmlspecialchars($_POST['password']));
+
 	$errors=[];
 	if (empty($_POST['password'])) {
 		$errors[]="Password is empty.";
@@ -33,17 +37,22 @@ if (isset($_POST)) {
 			echo '<h4>'.$error.'</h4><br>';
 		}
 	}else{
-		$dataUser=$select->execute();
+		$select->execute();
+		$dataUser=$select->fetch();
 		if (password_verify($_POST['password'], $dataUser['password'])) {
 			$_SESSION['id']= $dataUser['id'];
 			$_SESSION['username']= $dataUser['username'];
 			$_SESSION['email']= $dataUser['email'];
 			$_SESSION['role']= $dataUser['role'];
+			echo '<h2>Bienvenue '.$_SESSION['username'].'</h2>';
+		}else{
+			echo "Failed to connect your account.";
 		}
 	}
+
+	
 }
 	
-
 ?>
 
 </body>
