@@ -1,7 +1,12 @@
 
 	<?php include('header.php'); ?>
 <br>
+<<<<<<< HEAD
 <div class="container pt-5 pb-5">
+=======
+
+<div class="container">
+>>>>>>> 5f24a3526169afb338c01412ec458e6dbb7a4dec
 <div class="row">
 <div class="col-md-12">
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -48,6 +53,7 @@
     </p>
   </div>
   <div class="col-md-4">
+    <h4>Derniers articles consultés</h4>
 	<img src="//placehold.it/80x80">
     <img src="//placehold.it/80x80">
     <img src="//placehold.it/80x80">
@@ -56,6 +62,7 @@
   </div>
   </div>
 </div>
+
 
 	<?php include('footer.php'); ?>
 
