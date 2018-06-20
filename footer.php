@@ -59,7 +59,10 @@
         <ul class="list-unstyled">
           <?php 
           if ($_SESSION) {
-            echo '<li><a href="back.php">Back</a></li>';
+            echo '<li><a href="back.php">Accueil du back office</a></li>';
+            echo '<li><a href="gestion_articles.php">Gestion des articles</a></li>';
+            echo '<li><a href="gestion_utilisateurs.php">Gestion des utilisateurs</a></li>';
+            echo '<li><a href="gestion_index.php">Gestion de la page d\'accueil</a></li>';
             echo '<li><a href="disconnect.php">Déconnexion</a></li>';
           }else{
             echo '<li><a href="connection.php">Connexion</a></li>';
