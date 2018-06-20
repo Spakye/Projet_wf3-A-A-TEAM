@@ -1,3 +1,6 @@
+body{
+    font-family: 'Capriola', sans-serif;
+}
 header{
 	background-color: #3949AB;
 	color: white;
@@ -5,16 +8,15 @@ header{
 }
 
 header a {
-	color: white
+	color: black;
 }
-
 .form{
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 100px;
 }
 .titre{
-    font-family: 'Righteous', cursive;
+    font-family: 'Brawler', serif;
     margin-top: 50px;
     margin-left: 100px;
 }
@@ -33,11 +35,14 @@ footer{
 
 footer .col-md-3{
 	padding: 0 5;
-	background-color: #3949AB;
+	background-color: gray;
 	color: white;
 }
 
 footer a {
 	color: white;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Brawler', serif;
 }
 

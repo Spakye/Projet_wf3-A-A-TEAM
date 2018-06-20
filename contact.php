@@ -1,7 +1,8 @@
 <?php
 include('header.php')
 ?>
-    <h1 class="titre">Formulaire de contact</h1>
+<div class="contact">
+    <h1 class="titre"><u>Formulaire de contact : </u></h1>
     <form class="form">
         <div class="form-group">
           <label for="exampleInputEmail1" class="">Nom</label>
@@ -27,6 +28,7 @@ include('header.php')
           </div>        
         <button type="submit" class="btn btn-primary">Envoyer</button>
       </form>
+</div>
       <hr>
       <h3 id="ns">Nous situer : </h3> 
       <br>     

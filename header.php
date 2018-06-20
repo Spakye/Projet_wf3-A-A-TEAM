@@ -8,6 +8,8 @@ session_start();
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 	<meta charset="utf-8">
 	<title> Boutique en ligne </title>
+	<link href="https://fonts.googleapis.com/css?family=Capriola" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Brawler" rel="stylesheet">
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -32,9 +34,6 @@ session_start();
 							<a class="nav-link" href="t-shirt.php">T-SHIRT</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="robe.php">ROBE</a>
-						</li>
-						<li class="nav-item">
 							<a class="nav-link" href="manteau.php">MANTEAU</a>
 						</li>
 						<li class="nav-item active">
@@ -44,13 +43,7 @@ session_start();
 				</div>
 				</nav>
 				<div class="col-md-2 d-flex justify-content-around">
-					<?php if ($_SESSION) {
-						echo '<a href="#">'.$_SESSION['username'].'</a>';
-						echo '<a href="disconnect.php"><i class="fas fa-sign-out-alt fa-2x"></i></a>';
-					}else{
-						echo '<a href="connection.php"><i class="fas fa-user fa-2x"></i></a>';
-					}
-					?>
+					
 					
 				</div>
 			</div>
