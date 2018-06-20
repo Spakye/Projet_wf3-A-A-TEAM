@@ -16,7 +16,7 @@ session_start();
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-2">
-					<a href="index.php"><img src="https://placehold.it/150x50" alt="logo" class="logo"></a>
+					<a href="index.php"><img src="images/logo.jpg/150x50" alt="logo" class="logo"></a>
 				</div>
 				<nav class="col-md-8 navbar navbar-expand-lg d-flex justify-content-around">
 				<div id="navbarNav">
