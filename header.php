@@ -13,7 +13,7 @@ session_start();
 </head>
 <body>
 	<header>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-2">
 					<img src="https://placehold.it/150x50" alt="logo" class="logo">

@@ -36,7 +36,7 @@
     <div class="col-md-12"></div>
   </div>
 </div>
-<div class="row">
+<div class="row mt-5">
   <div class="col-md-8">
   <h2>Présentation de notre boutique</h2>
     <p>
