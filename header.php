@@ -41,9 +41,11 @@ session_start();
 					</ul>				
 				</nav>
 				<div class="col-md-2 navbar navbar-expand-lg">
+				<form method="GET" action="mdr.php?produits=<?php $_GET['title']?>" >
 					<ul>
-					<input type="text" name="search"><i style="color:black;" class="fas fa-search"></i>
+					<input type="text" name="title"><i style="color:black;" class="fas fa-search"></i>
 					</ul>
+					</form>
 				</div>
 			</div>
 		</div>
