@@ -1,23 +1,32 @@
 
-	<?php include('header.php'); ?>
+	<?php include('header.php');
 
-<div class="container">
+
+  if (!empty($_GET)) {
+    require_once('inc/bdd.php');
+    $selectArticle=$bdd->prepare('SELECT * FROM articles WHERE id=:id');
+    $selectArticle->bindValue(':id', $_GET['id']);
+    $selectArticle->execute();
+    $dataArticle=$selectArticle->fetch();
+  }
+
+   ?>
+
+<div class="container pt-5 pb-5">
 <div class="row">
   <div class="col-md-6">
-  <h3>TITRE</h3>
+    <h3><?= $dataArticle['title'] ?></h3>
   </div>
-  <div class="col-md-6">
-    <h3>TYPE</h3>
-  </div>
+
   </div>
   <div class="row">
     <div class="col-md-12">
-      <p>blablabla</p>
+      <p><?= $dataArticle['Product_Details'] ?></p>
     </div>
   </div>
   <div class="row">
     <div class="col-md-8">
-      <img src="//placehold.it/200x200">
+      <img src="<?= $dataArticle['url_pictures'] ?>">
     </div>
     <div class="col-md-4">
     <h5>Taille</h5><select>
@@ -41,7 +50,7 @@
     	<option>4</option>
     	<option>5</option>
     </select>
-    <h5>Prix</h5>
+    <h5>Prix : <strong><?= $dataArticle['price'] ?>€</strong></h5>
     
     </div>
   </div>

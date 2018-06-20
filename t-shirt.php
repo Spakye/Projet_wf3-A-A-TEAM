@@ -12,7 +12,7 @@
 
 
   foreach ($tshirts as $tshirt) {
-    echo '<hr><div class="row"><div class="col-md-6">';
+    echo '<hr><div class="row pt-5 pb-5"><div class="col-md-6">';
     echo '<img src="'.$tshirt['url_pictures'].'" height="250" width="250">';
     echo '</div>';
     echo '<div class="col-md-6">';
