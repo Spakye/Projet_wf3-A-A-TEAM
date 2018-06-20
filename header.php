@@ -21,7 +21,7 @@ session_start();
 					<a href="index.php"><img src="images/logo.jpg" alt="logo" class="logo"></a>
 				</div>
 				<nav class="col-md-8 navbar navbar-expand-lg d-flex justify-content-around">
-				<div id="navbarNav">
+				
 					<ul class="navbar-nav">
 						<li class="nav-item"><a class="nav-link" href="index.php">HOME</a></li>
 						<li class="nav-item active">
@@ -39,13 +39,15 @@ session_start();
 						<li class="nav-item active">
 							<a class="nav-link" href="contact.php">CONTACT</a>
 						</li>
-						
+
 					</ul>
-				</div>
+
+				
 				</nav>
-				<div class="col-md-2 d-flex justify-content-around">
-					
-					
+				<div class="col-md-2 navbar navbar-expand-lg">
+					<ul>
+					<input type="text" name="search"><i style="color:black;" class="fas fa-search"></i>
+					</ul>
 				</div>
 			</div>
 		</div>
