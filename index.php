@@ -38,9 +38,9 @@
 </div>
 <div class="row mt-5">
   <div class="col-md-8">
-  <h2>Présentation de notre boutique</h2>
+  <h2><u>Présentation de notre boutique : </u></h2>
     <p>
-      Présentation A-Team : Fondée en 2018, une Collection qui propose un grand choix de vêtements chaussure, pantalon, t-shirt, robe, manteau.
+      Présentation <strong>A-Team</strong> : Fondée en 2018, une Collection qui propose un grand choix de vêtements chaussure, pantalon, t-shirt, robe, manteau.
       Retrouvez entre autres les plus grandes marques du Maroc.
       Grand choix d'accessoires de mode : casquettes, chaussette, ceinture.
       Nous expédions les commandes sous 24h du lundi au vendredi par colissimo ou en express avec TNT. 
