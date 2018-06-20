@@ -1,47 +1,61 @@
 
+	<?php include('header.php'); ?>
+<br>
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="//placehold.it/75x25" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="//placehold.it/75x25" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="//placehold.it/75x25" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  </div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12"></div>
+  </div>
+</div>
+<div class="row mt-5">
+  <div class="col-md-8">
+  <h2>Présentation de notre boutique</h2>
+    <p>
+      Présentation A-Team : Fondée en 2018, une Collection qui propose un grand choix de vêtements chaussure, pantalon, t-shirt, robe, manteau.
+      Retrouvez entre autres les plus grandes marques du Maroc.
+      Grand choix d'accessoires de mode : casquettes, chaussette, ceinture.
+      Nous expédions les commandes sous 24h du lundi au vendredi par colissimo ou en express avec TNT. 
+      Paiement CB sécurisé.
+    </p>
+  </div>
+  <div class="col-md-4">
+	<img src="//placehold.it/75x75">
+    <img src="//placehold.it/75x75">
+    <img src="//placehold.it/75x75">
+    <img src="//placehold.it/75x75">
+  </div>
+  </div>
+  </div>
+</div>
 
-<body>
-    <h1 class="titre">Formulaire de contact</h1>
-    <form class="form">
-        <div class="form-group">
-          <label for="exampleInputEmail1" class="">Nom</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez votre nom">
-          <small id="emailHelp" class="form-text text-muted"></small>
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Prénom</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Entrez votre prénom">
-        </div>        
-        <div class="form-group">
-            <label for="exampleInputEmail1">Adresse Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez votre email">
-            <small id="emailHelp" class="form-text text-muted"></small>
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Mot de passe</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe">
-          </div> 
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Votre message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
-          </div>        
-        <button type="submit" class="btn btn-primary">Envoyer</button>
-      </form>
-      <h3>Nous situer</h3>
-    <div id="map"></div>
-    <script>     
-            function initMap() {
-        var uluru = {lat: 44.3333, lng: 1.2167};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 10,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFWfsdfrlRbYZRV3p4ekUlzDN2K3mJSKQ&callback=initMap">
-    </script>
+	<?php include('footer.php'); ?>
+
