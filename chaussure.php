@@ -3,7 +3,7 @@
 
 <div class="container text-center">
   <div class="row">
-    <h1 class="text-center">CHAUSSURES</h1>
+    <h1 class="text-center" style="margin-top:15px;margin-left:380px;color:red;"><u>CHAUSSURES</u></h1>
   </div>
   <?php
   require_once('inc/bdd.php');
