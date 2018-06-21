@@ -1,8 +1,5 @@
-<?php
 
-require_once('inc/bdd.php');
-include('header.php'); ?>
-    <br>
+	<?php include('header.php'); ?>
 
 <?php
 
@@ -37,3 +34,7 @@ if(!empty($_GET)) {
         echo 'Produit epuisé';
     }
 }
+?>
+
+	<?php include('footer.php'); ?>
+
