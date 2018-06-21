@@ -35,6 +35,9 @@ session_start();
 						<li class="nav-item">
 							<a class="nav-link" href="manteau.php"><strong>VESTE</strong></a>
 						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="moteur_de_recherche_test.php"><strong>RECHERCHE</strong></a>
+						</li>
 						<li class="nav-item active">
 							<a class="nav-link" href="contact.php"><strong>CONTACT</strong></a>
 						</li>
