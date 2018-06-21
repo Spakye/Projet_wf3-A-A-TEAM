@@ -1,5 +1,9 @@
 
-	<?php include('header.php'); ?>
+	<?php include('header.php');
+  require_once('inc/bdd.php');
+  $select=$bdd->query('SELECT * FROM accueil');
+  $slides= $select->fetchAll();
+  ?>
 <br>
 <div class="container">
 <div class="row">
@@ -12,13 +16,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="//placehold.it/75x25" alt="First slide">
+      <img class="d-block w-100" src="<?= $slides['0']['url'] ?>" height="300" width="400" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="//placehold.it/75x25" alt="Second slide">
+      <img class="d-block w-100" src="<?= $slides['1']['url'] ?>"  height="300" width="400" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="//placehold.it/75x25" alt="Third slide">
+      <img class="d-block w-100" src="<?= $slides['2']['url'] ?>" height="300" width="400" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
