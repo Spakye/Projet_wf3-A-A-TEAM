@@ -122,7 +122,7 @@ if(isset($_POST['idDelet'])){
     $articles3= $resultat->fetchAll();
     ?>
 
-    <h1 style="text-align:center;"><u>Modifier article un article</u></h1>
+    <h1 style="text-align:center;"><u>Modifier un article</u></h1>
     <div class="container">
         <form method="GET" action="modifier_articles.php">
             <div class="form-group">
@@ -150,3 +150,4 @@ if(isset($_POST['idDelet'])){
 
 
 <?php include('footer.php'); ?>
+

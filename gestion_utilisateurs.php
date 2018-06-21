@@ -142,7 +142,6 @@ if ($_POST) {
 </div>
 
 
-</body>
-</html>
+
 
 <?php include('footer.php'); ?>

@@ -3,6 +3,8 @@
 
 <?php
 require_once('inc/bdd.php');
+
+
 if(!empty($_GET)) {
     $errors = [];
 
