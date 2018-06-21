@@ -31,7 +31,28 @@ if ($_POST) {
 		}
 	}
 
+	if (isset($_POST['modifUsername']) && isset($_POST['modifEmail']) && isset($_POST['modifPassword']) && isset($_POST['modifPasswordConfirm'])) {
+		$modifRequete = 'UPDATE users SET';
 
+		if (!empty($_POST['modifUsername'])) {
+			$modifRequete .= ' username = "'.$_POST['modifUsername'].'"';
+		}
+
+		if (!empty($_POST['modifEmail'])) {
+			$modifRequete .= ', email = "'.$_POST['modifEmail'].'"';
+		}
+
+		if (!empty($_POST['modifPassword'])) {
+			if ($_POST['modifPassword'] === $_POST['modifPasswordConfirm']) {
+				$modifRequete .= ', password = "'.password_hash(htmlspecialchars($_POST['modifPassword']), PASSWORD_DEFAULT).'"';
+			}
+		}
+
+		$modifRequete .= ' WHERE id ="'.$_POST['choixModifUser'].'"';
+		$modif=$bdd->query(''.$modifRequete.'');
+		$msgModifUser="L'utilisateur a bien été modifié.";
+		
+	}
 
 }
 
@@ -72,16 +93,21 @@ if ($_POST) {
 					<button type="submit">Choisir</button>
 				</form>
 				<?php
+						if (isset($msgModifUser)) {
+							echo $msgModifUser;
+						}
+
 						if (isset($_POST['choixModifUser'])) {
 							$loadUserId = $bdd->query('SELECT * FROM users WHERE id = "'.$_POST['choixModifUser'].'"');
 							$loadUserId->execute();
 							$theUser= $loadUserId->fetch();
 							$formModif='<hr>
 										<form method="POST" action="gestion_utilisateurs.php">
+											<input type="hidden" name="choixModifUser" value="'.$_POST['choixModifUser'].'">
 											<input type="text" name="modifUsername" placeholder="Username" value="'.$theUser['username'].'">
 											<input type="email" name="modifEmail" placeholder="Email" value="'.$theUser['email'].'">
-											<input type="password" name="mofidPassword" placeholder="Password">
-											<input type="password" name="mofidPasswordConfirm" placeholder="Confirm Password">
+											<input type="password" name="modifPassword" placeholder="Password">
+											<input type="password" name="modifPasswordConfirm" placeholder="Confirm Password">
 											<button type="Submit">Modifier utilisateur</button>
 										</form>';
 							echo $formModif;
