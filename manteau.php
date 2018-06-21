@@ -3,7 +3,7 @@
 
 <div class="container text-center">
   <div class="row text-center">
-    <h1 style="margin-top:15px;margin-left:380px;"><u>MANTEAU</u></h1>
+    <h1 style="margin-top:15px;margin-left:420px;"><u>MANTEAU</u></h1>
   </div>
   <?php
   require_once('inc/bdd.php');
