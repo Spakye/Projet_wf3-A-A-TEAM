@@ -38,5 +38,7 @@ if(!empty($_GET)) {
 }
 ?>
 
+
+
 	<?php include('footer.php'); ?>
 
