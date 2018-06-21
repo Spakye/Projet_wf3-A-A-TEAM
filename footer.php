@@ -95,12 +95,7 @@
       <a class="btn-li mx-1"  href="https://www.linkedin.com/feed/">
         <i class="fab fa-linkedin"></i>
       </a>
-    </li>
-    <li class="" href="">
-      <a class="btn-dribbble mx-1">
-        <i class="fab fa-dribbble-square"></i>
-      </a>
-    </li>
+    </li>   
   </ul>
       </div>
 
