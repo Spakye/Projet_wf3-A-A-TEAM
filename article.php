@@ -59,9 +59,10 @@
     <h5>Prix : <strong><u><?= $dataArticle['price'] ?>€</u></strong></h5>
     <br><br><br>
     <h5>Ajouter au panier</h5>
+    <a href="panier.php">
     <button type="submit" style="width:230px;"><i class="fas fa-cart-arrow-down"></i>
-
 </button>
+    </a>
     
     </div>
   </div>

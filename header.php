@@ -38,6 +38,9 @@ session_start();
 						<li class="nav-item active">
 							<a class="nav-link" href="contact.php"><strong>CONTACT</strong></a>
 						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="panier.php"><strong>PANIER</strong></a>
+						</li>
 
 					</ul>				
 				</nav>
