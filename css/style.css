@@ -4,7 +4,7 @@ body{
     height: 100%;
 }
 header{
-	background-color: #66D5D5;
+	background-color: #46d8e5;
 	color: white;
 
 }
@@ -36,7 +36,7 @@ footer{
 
 footer .col-md-3{
 	padding: 0 5;
-	background-color: #66D5D5;
+	background-color: #46d8e5;
 	color: white;
 }
 

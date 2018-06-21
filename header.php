@@ -22,21 +22,21 @@ session_start();
 				</div>
 				<nav class="col-md-8 navbar navbar-expand-lg d-flex justify-content-around">
 					<ul class="navbar-nav">
-						<li class="nav-item"><a class="nav-link" href="index.php"  onmouseover="this.innerHTML='منزل'"onmouseout="this.innerHTML='HOME'"><strong>HOME</strong></a></li>
+						<li class="nav-item"><a class="nav-link" href="index.php"><strong>HOME</strong></a></li>
 						<li class="nav-item active">
-							<a class="nav-link" href="chaussure.php"onmouseover="this.innerHTML='حذاء'"onmouseout="this.innerHTML='CHAUSSURE'"><strong>CHAUSSURE</strong></a>
+							<a class="nav-link" href="chaussure.php"><strong>CHAUSSURE</strong></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="pantalon.php" onmouseover="this.innerHTML='بنطلون'"onmouseout="this.innerHTML='PANTALON'"><strong>PANTALON</strong></a>
+							<a class="nav-link" href="pantalon.php"><strong>PANTALON</strong></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="t-shirt.php" onmouseover="this.innerHTML='قميص'"onmouseout="this.innerHTML='T-SHIRT'"><strong>T-SHIRT</strong></a>
+							<a class="nav-link" href="t-shirt.php"><strong>T-SHIRT</strong></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="manteau.php" onmouseover="this.innerHTML='معطف'"onmouseout="this.innerHTML='MANTEAU'"><strong>MANTEAU</strong></a>
+							<a class="nav-link" href="manteau.php"><strong>MANTEAU</strong></a>
 						</li>
 						<li class="nav-item active">
-							<a class="nav-link" href="contact.php" onmouseover="this.innerHTML='اتصال'"onmouseout="this.innerHTML='CONTACT'"><strong>CONTACT</strong></a>
+							<a class="nav-link" href="contact.php"><strong>CONTACT</strong></a>
 						</li>
 
 					</ul>				
@@ -44,7 +44,7 @@ session_start();
 				<div class="col-md-2 navbar navbar-expand-lg">
 				<form method="GET" action="mdr.php?produits=<?php $_GET['title']?>" >
 					<ul>
-					<input type="text" name="title"><a href="mdr.php"><i style="color:black; margin-left:20px;" class="fas fa-search"></i></a>
+					<input type="text" name="title"><a href="mdr.php"><i style="color:black;" class="fas fa-search"></i></a>
 					</ul>
 					</form>
 				</div>
