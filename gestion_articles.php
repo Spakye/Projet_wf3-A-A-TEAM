@@ -53,7 +53,7 @@ require_once('inc/bdd.php');
 
 
 ?>
-<h1>Ajouter un article</h1>
+<h1 style="text-align:center;margin-top:20px;"><u>Ajouter un article</u></h1>
 <div class="container">
     <form method="POST" action="gestion_articles.php">
         <div class="form-group">
@@ -96,7 +96,7 @@ if(isset($_POST['idDelet'])){
 
 }
 ?>
-<h1>Supprimer un article</h1>
+<h1 style="text-align:center;color:red;"><u>Supprimer un article</u></h1>
 <div class="container">
     <form method="POST" action="gestion_articles.php">
         <div class="form-group">
@@ -122,7 +122,7 @@ if(isset($_POST['idDelet'])){
     $articles3= $resultat->fetchAll();
     ?>
 
-    <h1>Modifier article un article</h1>
+    <h1 style="text-align:center;"><u>Modifier article un article</u></h1>
     <div class="container">
         <form method="GET" action="modifier_articles.php">
             <div class="form-group">
