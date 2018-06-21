@@ -1,7 +1,11 @@
-<?php
-include('headerBack.php');
+<?php include('header.php');
 
 require_once('inc/bdd.php');
+?>
+<?php
+
+
+
 $loadUsers=$bdd->query('SELECT * FROM users');
 $users=$loadUsers->fetchAll();
 
@@ -140,3 +144,5 @@ if ($_POST) {
 
 </body>
 </html>
+
+<?php include('footer.php'); ?>
