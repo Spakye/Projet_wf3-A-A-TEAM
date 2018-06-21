@@ -114,7 +114,34 @@ if(isset($_POST['idDelet'])){
 
         </div>
     <button type="submit" class="btn btn-primary">supprimer</button>
-    </form>
+    </form><br>
+
+    <?php
+    $resultat = $bdd->query('SELECT * FROM articles WHERE id');
+    $resultat->execute();
+    $articles3= $resultat->fetchAll();
+    ?>
+
+    <h1>Modifier article un article</h1>
+    <div class="container">
+        <form method="GET" action="modifier_articles.php?">
+            <div class="form-group">
+
+                <label>Titre de l'article</label>
+
+                <select class="form-control" name="idUpdate" >
+                    <?php
+                    foreach($articles3 as $article) {
+                        echo '<option value= " ' . $article['id'] . '"> ' . $article['title'] . '</option>';
+                    }
+                    ?>
+
+                </select>
+
+            </div>
+            <button type="submit" class="btn btn-primary">Modifier</button>
+        </form>
+
 </div>
 
 
