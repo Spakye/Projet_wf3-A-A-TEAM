@@ -5,7 +5,7 @@ require_once('inc/bdd.php');
 
 
 
-    if(!empty($_POST)){
+        if(!empty($_POST)){
 
         if(isset($_POST['titleArticle'])) {
 
