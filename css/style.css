@@ -1,5 +1,10 @@
+body{
+    background-color: #C5F2EC;
+    width: 100%;
+    height: 100%;
+}
 header{
-	background-color: white;
+	background-color: #66D5D5;
 	color: white;
 
 }
@@ -25,13 +30,13 @@ header a {
     margin-left: 400px;
 }
 
-footer{
+footer{    
 	position: bottom fixed;
 }
 
 footer .col-md-3{
 	padding: 0 5;
-	background-color: gray;
+	background-color: #66D5D5;
 	color: white;
 }
 
@@ -39,5 +44,6 @@ footer a {
 	color: white;
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Brawler', serif;
+    font-family: 'Krona One', sans-serif;
+    color: #010101;
 }
