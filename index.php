@@ -45,7 +45,7 @@
       Grand choix d'accessoires de mode : casquettes, chaussette, ceinture.
       Nous expédions les commandes sous 24h du lundi au vendredi par colissimo ou en express avec TNT. 
       Paiement CB sécurisé.
-      أمك ، عاهرة الدهون سيدريك يريد أن يمارس الجنس كل صباح.
+      
     </p>
   </div>
   <div class="col-md-4">

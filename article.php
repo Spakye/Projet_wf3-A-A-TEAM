@@ -29,28 +29,39 @@
       <img src="<?= $dataArticle['url_pictures'] ?>">
     </div>
     <div class="col-md-4">
-    <h5>Taille</h5><select>
-    	<option>XXL</option>
-    	<option>XL</option>
-    	<option>L</option>
-    	<option>M</option>
+    <h5>Taille</h5><select><br>
     	<option>S</option>
-    </select><br>
+    	<option>M</option>
+    	<option>L</option>
+    	<option>XL</option>    	
+    </select><br><br>
+    <h5>Pointure</h5><select>
+    	<option>38</option>
+    	<option>39</option>
+    	<option>40</option>
+    	<option>42</option>
+    	<option>44</option>
+    </select><br><br>
      <h5>Couleur</h5><select>
     	<option>Noir</option>
     	<option>Bleu</option>
     	<option>Rouge</option>
     	<option>Vert</option>
     	<option>Rose</option>
-    </select>
+    </select><br><br>
      <h5>Quantité</h5><select>
     	<option>1</option>
     	<option>2</option>
     	<option>3</option>
     	<option>4</option>
     	<option>5</option>
-    </select>
-    <h5>Prix : <strong><?= $dataArticle['price'] ?>€</strong></h5>
+    </select><br><br>
+    <h5>Prix : <strong><u><?= $dataArticle['price'] ?>€</u></strong></h5>
+    <br><br><br>
+    <h5>Ajouter au panier</h5>
+    <button type="submit" style="width:230px;"><i class="fas fa-cart-arrow-down"></i>
+
+</button>
     
     </div>
   </div>
