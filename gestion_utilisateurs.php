@@ -45,7 +45,7 @@ if ($_POST) {
 		if (!empty($_POST['modifPassword'])) {
 			if ($_POST['modifPassword'] === $_POST['modifPasswordConfirm']) {
 				$modifRequete .= ', password = "'.password_hash(htmlspecialchars($_POST['modifPassword']), PASSWORD_DEFAULT).'"';
-			}
+			}else{echo "les mdp ne corespondent pas !";}
 		}
 
 		$modifRequete .= ' WHERE id ="'.$_POST['choixModifUser'].'"';
@@ -116,13 +116,22 @@ if ($_POST) {
 			</div>
 			<div class="col-md-3 border-right">
 				<h3>Supprimer un utilisateur</h3>
-				<select name="supprUser">
-					<?php
-						foreach ($users as $user) {
-							echo '<option value="'.$user['id'].'">'.$user['username'].'</option>';
+				<form method="POST" action="gestion_utilisateurs.php">
+					<select name="supprUser">
+						<?php
+							foreach ($users as $user) {
+								echo '<option value="'.$user['id'].'">'.$user['username'].'</option>';
+							}
+						 ?>
+					</select>
+					<button type="submit">Supprimer l'utilisateur</button>
+					<?php 
+						if (isset($_POST['supprUser'])) {
+							$requeteSuppr=$bdd->query('DELETE FROM users WHERE id="'.$_POST['supprUser'].'"');
+							echo "L'utilisateur a bien été supprimer";
 						}
 					 ?>
-				</select>
+				</form>
 			</div>
 		</div>
 	</div>
