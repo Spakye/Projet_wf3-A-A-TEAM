@@ -20,20 +20,20 @@ session_start();
 				<div class="col-md-2">
 					<a href="index.php"><img src="images/logo.jpg" alt="logo" class="logo"></a>
 				</div>
-				<nav class="col-md-8 navbar navbar-expand-lg d-flex justify-content-around">
+				<nav class="col-md-6 navbar navbar-expand-lg d-flex justify-content-around">
 					<ul class="navbar-nav">
 						<li class="nav-item"><a class="nav-link" href="index.php"><strong>HOME</strong></a></li>
 						<li class="nav-item active">
 							<a class="nav-link" href="chaussure.php"><strong>CHAUSSURE</strong></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="pantalon.php"><strong>PANTALON</strong></a>
+							<a class="nav-link" href="pantalon.php"><strong>JEAN</strong></a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="t-shirt.php"><strong>T-SHIRT</strong></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="manteau.php"><strong>MANTEAU</strong></a>
+							<a class="nav-link" href="manteau.php"><strong>VESTE</strong></a>
 						</li>
 						<li class="nav-item active">
 							<a class="nav-link" href="contact.php"><strong>CONTACT</strong></a>
@@ -41,12 +41,23 @@ session_start();
 
 					</ul>				
 				</nav>
-				<div class="col-md-2 navbar navbar-expand-lg">
+				<div class="col-md-4 navbar navbar-expand-lg">
 				<form method="GET" action="mdr.php?produits=<?php $_GET['title']?>" >
 					<ul>
-					<input type="text" name="title"><a href="mdr.php"><i style="color:black;" class="fas fa-search"></i></a>
+                        <p><strong style="color:black;">Recherche par Produit</strong></p>
+                        <input type="text" name="title"><a href="mdr.php"><i style="color:black;" class="fas fa-search"></i></a>
+
+                        <p><strong style="color:black;">Recherche par Catégorie</strong></p>
+                        <select name="" id="">
+                            <option value="">Jean</option>
+                            <option value="">Veste</option>
+                            <option value="">Tee-Shirt</option>
+                            <option value="">Chaussure</option>
+                        </select>
 					</ul>
 					</form>
+
+
 				</div>
 			</div>
 		</div>
