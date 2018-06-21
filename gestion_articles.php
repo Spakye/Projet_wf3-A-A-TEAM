@@ -124,7 +124,7 @@ if(isset($_POST['idDelet'])){
 
     <h1>Modifier article un article</h1>
     <div class="container">
-        <form method="GET" action="modifier_articles.php?">
+        <form method="GET" action="modifier_articles.php">
             <div class="form-group">
 
                 <label>Titre de l'article</label>
@@ -132,7 +132,7 @@ if(isset($_POST['idDelet'])){
                 <select class="form-control" name="idUpdate" >
                     <?php
                     foreach($articles3 as $article) {
-                        echo '<option value= " ' . $article['id'] . '"> ' . $article['title'] . '</option>';
+                        echo '<option value= "' . $article['id'] . '"> ' . $article['title'] . '</option>';
                     }
                     ?>
 
